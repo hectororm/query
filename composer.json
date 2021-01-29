@@ -1,0 +1,33 @@
+{
+  "name": "hectororm/query",
+  "description": "Hector Query",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "https://gethectororm.com",
+  "authors": [
+    {
+      "name": "Ronan Giron",
+      "email": "ronan@getberlioz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hector\\Query\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hector\\Query\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "hectororm/connection": "@dev"
+  },
+  "suggest": {
+  },
+  "require-dev": {
+    "ext-pdo": "*",
+    "phpunit/phpunit": "^9.3"
+  }
+}
