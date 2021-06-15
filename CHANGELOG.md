@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta2] - In progress
 
+### Added
+
+- New helper methods to build queries: `whereContains()`, `whereStartsWith()`, `whereEndsWith()`, `havingContains()`, `havingStartsWith()`, `havingEndsWith()`
+
 ### Changed
 
 - Stop to beautify and indent... SQL queries
