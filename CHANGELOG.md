@@ -18,6 +18,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - @package attributes from PhpDoc
 
+### Fixed
+
+- Count method of query builder with grouped select
+
 ## [1.0.0-beta1] - 2021-06-02
 
 Initial development.
