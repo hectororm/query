@@ -22,7 +22,7 @@
   },
   "require": {
     "php": "^8.0",
-    "hectororm/connection": "@dev"
+    "hectororm/connection": "1.0.0-beta3"
   },
   "suggest": {
   },
