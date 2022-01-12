@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Fixed
 
 - Array cast of sub values for binding
+- Count with "having" conditions
 
 ## [1.0.0-beta3] - 2021-08-27
 
