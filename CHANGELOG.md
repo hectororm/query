@@ -10,6 +10,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Array cast of sub values for binding
 - Count with "having" conditions
+- Count with DISTINCT selection
 
 ## [1.0.0-beta3] - 2021-08-27
 
