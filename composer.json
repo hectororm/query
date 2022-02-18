@@ -1,7 +1,8 @@
 {
   "name": "hectororm/query",
   "description": "Hector Query",
-  "minimum-stability": "stable",
+  "minimum-stability": "beta",
+  "prefer-stable": true,
   "license": "MIT",
   "homepage": "https://gethectororm.com",
   "authors": [
@@ -22,7 +23,7 @@
   },
   "require": {
     "php": "^8.0",
-    "hectororm/connection": "1.0.0-beta3"
+    "hectororm/connection": "^1.0"
   },
   "suggest": {
   },
