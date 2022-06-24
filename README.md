@@ -70,12 +70,13 @@ $union = new Union();
 
 All this classes implements `StatementInterface` interface. This interface provides one method to get statement and bindings:
 
-`StatementInterface::getStatement(array &$binding)`
+`StatementInterface::getStatement(BindParamList $bindParams)`
 
 Example of use:
 
 ```php
 use Hector\Connection\Connection;
+use Hector\Connection\Bind\BindParamList;
 use Hector\Query\Select;
 
 $connection = new Connection('...');
@@ -84,10 +85,10 @@ $select
     ->from('table')
     ->where('field', 'value');
 
-$binding = [];
-$statement = $select->getStatement($binding);
+$binds = new BindParamList();
+$statement = $select->getStatement($binds);
 
-$result = $connection->fetchAll($statement, $binding);
+$result = $connection->fetchAll($statement, $binds);
 ```
 
 ### Conditions

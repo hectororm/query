@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta5] - 2022-06-24
+
+### Added
+
+- Bind parameters in builder and queries objects
+
+### Changed
+
+- `QueryBuilder` implements `StatementInterface`
+- Use `BinParamList` object instead array
+
 ## [1.0.0-beta4] - 2022-02-19
 
 ### Fixed
