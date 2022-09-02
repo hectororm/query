@@ -179,7 +179,7 @@ Repeat call of this method, add a new assignment to the statement ; you can rese
 
 Or pass an associative array with column names and values:
 
-`QueryBuilder::assigns(array $columnValues)`
+`QueryBuilder::assigns(array|StatementInterface $columnValues)`
 
 ### Jointures
 
@@ -267,6 +267,7 @@ Shortcut methods are available in `QueryBuilder` class to do an insert, an updat
 ```php
 /** @var QueryBuilder $queryBuilder */
 use Hector\Query\QueryBuilder;
+use Hector\Query\Select;
 
 $queryBuilder
     ->from('table', 'alias')
@@ -274,6 +275,7 @@ $queryBuilder
     ->orWhere('field', '=', 'value2');
 
 $affectedRows = $queryBuilder->insert(['field' => 'value', 'field2' => 'value2']);
+$affectedRows = $queryBuilder->insert((new Select())->from('table_src'));
 $affectedRows = $queryBuilder->update(['field' => 'value']);
 $affectedRows = $queryBuilder->delete();
 ```
