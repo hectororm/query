@@ -4,11 +4,15 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
-## [1.0.0-beta6] - In progress
+## [1.0.0-beta6] - 2022-09-05
 
 ### Added
 
 - `QueryBuilder::insert()` accept a statement in assignment
+
+### Changed
+
+- Compatibility with `hectororm/connection` version 1.0.0-beta6
 
 ## [1.0.0-beta5] - 2022-06-24
 
