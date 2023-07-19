@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta7] - 2023-07-20
+
+### Changed
+
+- Quote aliases in components
+
 ## [1.0.0-beta6] - 2022-09-05
 
 ### Added
