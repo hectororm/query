@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta7] - 2023-07-20
 
+### Added
+
+- The distinct parameter can be a closure
+
 ### Changed
 
 - Quote aliases in components
