@@ -4,11 +4,17 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta9] - 2024-03-19
+
+### Added
+
+- "Ignore" parameter for inserts to the query builder
+
 ## [1.0.0-beta8] - 2024-03-19
 
 ### Added
 
-- Ignore parameter for inserts
+- "Ignore" parameter for inserts
 
 ### Changed
 
